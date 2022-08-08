@@ -13,6 +13,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         print("创建了引导页")
         print("做了直播功能")
+        print("做了支付功能")
     }
 
 
