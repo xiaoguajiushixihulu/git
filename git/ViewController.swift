@@ -25,6 +25,11 @@ class ViewController: UIViewController {
         super.viewDidAppear(animated)
         print("界面优化")
     }
+    
+    override func viewWillLayoutSubviews() {
+        super.viewWillLayoutSubviews()
+        print("调整了按钮的主题颜色")
+    }
 
 
 }
